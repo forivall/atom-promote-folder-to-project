@@ -1,9 +1,12 @@
 {
   "name": "promote-folder-to-project",
   "main": "./lib/promote-folder-to-project",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Add folders to your current project by right clicking on them in the tree view",
-  "keywords": ["tree-view", "project"],
+  "keywords": [
+    "tree-view",
+    "project"
+  ],
   "activationCommands": {
     "atom-workspace": "promote-folder-to-project:add-project-folder"
   },
