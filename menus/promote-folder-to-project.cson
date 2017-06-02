@@ -6,3 +6,9 @@
       'command': 'promote-folder-to-project:add-project-folder'
     }
   ]
+  '.tree-view .full-menu .project-root .directory > .header': [
+    {
+      'label': 'Promote to Project Folder'
+      'command': 'promote-folder-to-project:add-project-folder'
+    }
+  ]
