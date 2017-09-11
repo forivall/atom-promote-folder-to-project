@@ -7,6 +7,7 @@ module.exports = PromoteFolderToProject =
   activate: (state) ->
     @subscriptions = new CompositeDisposable
     @subscriptions.add atom.commands.add '.tree-view.full-menu', 'promote-folder-to-project:add-project-folder': (e) => @addProjectFolder(e)
+    @subscriptions.add atom.commands.add '.tree-view .full-menu', 'promote-folder-to-project:add-project-folder': (e) => @addProjectFolder(e)
 
   deactivate: ->
     @subscriptions.dispose()
